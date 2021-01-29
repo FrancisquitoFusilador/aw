@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Don Quijote de la mancha en resumen" />
+	<meta name="keywords" content="Quijote,Cervantes,Miguel,Escritor,Maquetado,sin,tablas" />
+	<meta name="author" content="Juan Pablo" />
+	<link rel="stylesheet" href="styles/Página11.css">
+	<title>Don Quijote de la Mancha</title>
+
+</head>
+<body>
+	<div id="Caja">
+		<header>
+			<h1>Aprendiendo CSS con el Quijote</h1>
+			<h3 id="Segundo-titulo">Para maquetar no hacen falta tablas</h3>
+		</header>
+		<main>
+			<div id="Izquierdo">
+				<h2 id="Artista1">Miguel de Cervantes</h2>
+				<p id="Primer-texto">Fue un novelista, poeta, dramaturgo y soldado español, considerado la máxima figura de la literatura española y es universalmente conocido por haber escrito El ingenioso Hidalgo don Quijote de la Mancha (conocida habitualmente como el Quijote), que muchos críticos han descrito como la primera novela moderna y una de las mejores obras de la literatura universal, además de ser el libro más editado y traducido de la historia, solo superado por la Biblia. Se le ha dado el sobrenombre de «Príncipe de los Ingenios». </p>
+			</div>
+			<div id="Derecho">
+				<h2 id="Artista2">El ingenioso hidalgo Don Quijote</h2>
+				<p id="Segundo-texto">Es la novela cumbre de la literatura en lengua española. Su primera parte apareció en 1605 y obtuvo una gran acogida pública. Pronto se tradujo a las principales lenguas europeas y es una de las obras con más traducciones del mundo. En 1615 se publicó la segunda parte.
+				En un principio, la pretensión de Cervantes fue combatir el auge que habían alcanzado los libros de caballerías, satirizándolos con la historia de un hidalgo manchego que perdió la cordura por leerlos, creyéndose caballero andante. Para Cervantes, el estilo de las novelas de caballerías era pésimo, y las historias que contaba eran disparatadas. A pesar de ello, a medida que iba avanzando el propósito inicial fue superado, y llegó a construir una obra que reflejaba la sociedad de su tiempo y el comportamiento humano.
+				Es probable que Cervantes se inspirara en el Entremés de los romances, en el que un labrador pierde el juicio por su afición a los héroes del Romancero viejo. </p>
+			
+			</div>
+		</main>
+		
+		<footer>
+			<h3>Basado en el ejemplo #1 CSS-Sésamo de BenKo</h3>
+			
+		
+		</footer>
+	</div>	
+</body>
+
+
+</html>
