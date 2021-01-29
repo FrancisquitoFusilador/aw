@@ -1,0 +1,33 @@
+/*
+
+FORMULARIOS CSS
+ENERO 2021 MIGUEL ALEJANDRO EGEA CALLE
+
+*/
+
+*{
+margin: 0;
+box-sizing: border-box;
+text-align: center;    
+}
+
+.formulario{
+background-color: black;
+color: white;
+top: auto;
+margin: auto;
+margin-top: 20px;
+padding: 25px;
+width: 50%;
+}
+
+.fm{
+    display: flex;
+    flex-direction: column;    
+}
+
+.fm>*{
+padding: 15px;
+border-radius: 10px;
+margin: 10px 0px 0px 0px;    
+}
