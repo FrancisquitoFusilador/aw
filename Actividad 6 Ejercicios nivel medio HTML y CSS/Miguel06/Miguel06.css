@@ -1,0 +1,59 @@
+/*
+    Creado por Miguel Alejandro Egea Calle.
+    Lunes 11 de Enero de 2021.
+*/
+
+
+body {
+  background-color: cadetblue;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+
+p.cajaf-1 {
+  border: black 10px solid;
+  border-radius: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+  background-color: white;
+}
+
+p.cajaf-2 {
+  border: brown 20px solid;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 50%;
+  padding: 10px;
+  background-color: chocolate;
+  color: white;
+}
+
+p.cajaf-3 {
+  border: brown 20px solid;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 50%;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+}
+
+p.cajaf-4 {
+  border: cornflowerblue 5px dashed;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+  background-color: darkcyan;
+  color: white;
+}
