@@ -1,0 +1,19 @@
+/*
+    Creado por: Miguel Alejandro Egea Calle.
+    Lunes 11 de Enero de 2021
+*/
+
+*{
+  box-sizing: border-box;
+    margin: 0px;
+}
+
+#galeria {
+	max-width: 650px;
+}
+#galeria img {
+	float: left;
+	margin: 1em;
+	padding: .5em;
+	border: 1px solid #CCC;
+}

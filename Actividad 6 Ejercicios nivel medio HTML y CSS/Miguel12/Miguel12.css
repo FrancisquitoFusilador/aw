@@ -1,0 +1,49 @@
+/*
+    Creado por: Miguel Alejandro Egea Calle.
+    Lunes 11 de Enero de 2021
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+body{
+    background-color:whitesmoke;
+}
+header{
+    background-color: darkslategrey;
+    color: snow;
+    margin-bottom: 20px;
+}
+
+h2{
+    background-color: darkslategrey;
+    color: snow;
+}
+h3{
+    background-color: green;
+    color: snow;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section{
+    border: solid;
+    border-color: darkslategrey;
+    width: 45%; 
+    float: right;
+    margin-right: 45px;
+    height: 675px;
+    align-content: center;
+}
+
+
+div{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: snow;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
