@@ -1,0 +1,82 @@
+
+/*
+    Creado por: Miguel Alejandro Egea Calle.
+    Lunes 11 de Enero de 2021
+*/
+*{
+  box-sizing: border-box;
+    margin: 0px;
+}
+
+
+body {
+	background-color:dimgrey;
+	
+}
+
+#bloque {
+	background-color:orange;
+	border: 10px solid whitesmoke;
+	width:70%;
+	margin:auto;
+	text-align:justify;
+    height: 60%;
+}
+
+main{
+    overflow: auto;
+}
+
+header {
+	background-color:black;
+	color:white;
+	font-family:"Trebuchet MS", Times, serif;
+	padding:10px;
+	float:center;
+	
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+    float: center;
+}
+
+#Segundo-titulo {
+	font-style:oblique;
+	color:darkgray;
+	
+}
+
+#p-blanco {
+	width:25%;
+	padding:10px;
+	float:left;
+	clear:both;
+	text-align:justify;
+	background-color:white;
+	border-right:1px solid darkgray;
+	border-bottom:1px solid darkgray;
+    text-align: justify;
+	
+	
+}
+
+
+#p-amarillo {
+    width:75%;
+    padding:5% 5% 5% 5%;
+    text-align: justify;
+    float: left;
+    font-family: sans-serif;
+}
+
+footer {
+	background-color:black;
+	color:darkgray;
+	text-align:center;
+	padding:10px;
+	float:center;
+}
+
