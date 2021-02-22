@@ -1,0 +1,105 @@
+/*
+    Portafolio creado por Miguel Alejadro Egea Calle.
+    Lunes 8 de Diciembre de 2021.
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+footer{
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+}
+
+body{
+    background-image: url(IMG/fondit.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    font-family: 'Ultra', serif;
+}
+
+nav{
+   display: grid;
+   grid-auto-flow: row;
+   text-align: center;
+}
+
+@media (min-width:700px) {
+   nav{
+       grid-auto-flow: column;
+   }
+}
+
+nav a{  
+   text-decoration: none;
+   color:white;
+   background-color: transparent;
+   height: 40px;
+   padding-top: 20px;
+   font-family: 'Ultra', serif;
+}
+
+nav a:hover{
+   background-color: white;
+    color: black;
+    opacity:0.5
+}
+
+.centro{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 150px;
+}
+
+section{
+     height: 700px;
+     width: 75%;
+     margin: 0px auto;
+     background-color: black;
+     border-style: solid;
+     border-color: black;
+     border-radius: 15%;
+     color: white;
+     font-size: 20px;
+     display: block;
+     padding-top: auto;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Ultra', serif;
+    color: darkgoldenrod;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.listas{
+    margin-left: 33%;
+}

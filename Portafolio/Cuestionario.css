@@ -1,0 +1,146 @@
+/*
+    Portafolio creado por Miguel Alejadro Egea Calle.
+    Lunes 8 de Diciembre de 2021.
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+footer{
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+}
+
+body{
+    background-image: url(IMG/fondit.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    font-family: 'Ultra', serif;
+}
+
+nav{
+   display: grid;
+   grid-auto-flow: row;
+   text-align: center;
+}
+
+@media (min-width:700px) {
+   nav{
+       grid-auto-flow: column;
+   }
+}
+
+nav a{  
+   text-decoration: none;
+   color:white;
+   background-color: transparent;
+   height: 40px;
+   padding-top: 20px;
+   font-family: 'Ultra', serif;
+}
+
+nav a:hover{
+   background-color: white;
+    color: black;
+    opacity:0.5
+}
+
+.separador{
+    height: 250px;
+}
+
+
+.contacto{
+    background-color: black;
+    border: solid 5px black;
+    width: 75%;
+    margin-left: 12.5%;
+    padding: 15px;
+    margin-top: 50px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.contacto h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.linea{
+    background: white;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario > *{
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.mapa{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+table{
+    background-image:
+    linear-gradient(to bottom,
+    rgba(0, 0, 255, 0.51), white);
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 100%;
+    caption-side: bottom;
+}
+
+caption{
+    margin: 10px;
+}
+
+th{
+    background-color: purple;
+    color: orange;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td{
+    text-align: center; 
+    padding: 10px;
+}
+
+.audio{
+    margin-left: 70%;
+}
